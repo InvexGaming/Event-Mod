@@ -1,0 +1,75 @@
+"Phrases"
+{
+	"Initiated Event Vote"
+	{
+    "#format"		"{1:s}"
+		"en"			"{lightgreen}{1}{default} has initiated an event vote."
+	}
+  "Winning Event Vote"
+  {
+    "#format"		"{1:s},{2:d}"
+    "en"			"The next round will be a {lightgreen}{1}{default}. Vote passed with {2}%% of votes."
+  }
+  "Cannot Vote For Event"
+  {
+    "en"			"You cannot trigger an event vote as an event day has recently occured."
+  }
+  "Event Day Already Selected"
+  {
+    "en"			"An event day has already been selected."
+  }
+  "Event Day Already Occuring"
+  {
+    "en"			"An event day is already occuring."
+  }
+  "Cannot Vote Last Round"
+  {
+    "en"			"You cannot trigger an event vote in the final round."
+  }
+  "Event Vote In Progress"
+  {
+    "en"			"An event vote is already in progress."  
+  }
+  "Alert Next Event Round"
+  {
+    "#format"		"{1:s},{2:s}"
+    "en"			"The next round will be a {lightgreen}{1}{default}. {2}"
+  }
+  "Alert Event Round"
+  {
+    "#format"		"{1:s},{2:s}"
+    "en"			"This round is a {lightgreen}{1}{default}. {2}"
+  }
+  "Player Won Prize"
+  {
+    "#format"		"{1:d}"
+    "en"			"You have been awarded {green}{1}{default} credits for this event round!"
+  }
+  "Must be VIP"
+  {
+    "en"			"You must be a VIP user to use this command. Type {green}!vip{default} to learn more."
+  }
+  "Alert Event Stopped"
+  {
+    "#format"		"{1:s}"
+    "en"			"{lightgreen}{1}{default} is now over."
+  }
+  "Items Returned"
+  {
+    "en"			"Your stored weapons have been returned."
+  }
+  "Event Pending Vote"
+  {
+    "en"			"Pending Vote."
+  }
+  "Set Event Round"
+  {
+    "#format"		"{1:s},{2:s}"
+     "en"			"{lightgreen}{1}{default} has set the next round to be a {lightgreen}{2}{default}."
+  }
+  "HP Fixed This Round"
+  {
+    "#format"		"{1:d}"
+    "en"			"Your health points cannot become higher than {green}{1}{default} this round."
+  }
+}
